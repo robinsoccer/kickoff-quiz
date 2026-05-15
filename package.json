@@ -1,0 +1,16 @@
+{
+  "name": "kickoff-quiz-scheduler",
+  "version": "1.0.0",
+  "description": "Daily soccer news + quiz automation agent for KickOff Quiz",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/daily_agent.js",
+    "test": "node scripts/daily_agent.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
